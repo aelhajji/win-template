@@ -256,8 +256,11 @@ body{
         margin: 20px;
         width: 100vw;
     }
+    .info-content img{
+        width: 160px !important;
+        margin-top: 7px;
+    }
     .win-info img{
-        /* display: none; */
         width: 80vw;
     }
   }
