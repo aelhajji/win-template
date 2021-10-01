@@ -224,6 +224,8 @@ body{
     }
     #only-mobile{
         display: block;
+        font-size: 29px;
+        margin-left: 5px;
     }
     .info-text{
         color: white;
