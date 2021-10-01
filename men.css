@@ -130,7 +130,7 @@ body{
     flex-wrap: wrap-reverse;
     width: 90%; 
     min-height: 67vh;
-    
+    padding-bottom: 10px;
     border-radius: 17px;
 }
 .green{
@@ -155,6 +155,11 @@ body{
 .info-content p{
     margin: 0;
 }
+.app-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
 .info-content h4{
     margin: 0;
     margin-top: 30px;
@@ -162,6 +167,11 @@ body{
 }
 .info-content i{
     color: gold;
+}
+.info-content img{
+    width: 100px !important;
+    margin-top: 30px;
+    margin-left: 10px;
 }
 .Lets-go a{
     padding-left: 30px;
@@ -196,6 +206,17 @@ body{
         margin-bottom:20px;
         border-radius: 27px;
     
+    }
+    .app-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .info-content img {
+        width: 188px !important;
+        margin-top: 5px;
+        margin-left: 10px;
     }
     .nanigation{
         position: absolute;
