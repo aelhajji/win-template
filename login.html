@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="men.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-win</title>
+</head>
+
+<body>
+    <div class="all-content">
+        <div class="navigationbar">
+            <i id="only-mobile" onclick="showhidNav()" class="fas fa-bars "></i>
+            <div class="logo">
+                <img src="images/1200x630wa-removebg-preview.png" width="30" alt="" srcset=""> Win by inwi
+            </div>
+            <div id="nanigation" class="nanigation hide">
+                <a href="http://">Forfait mobile</a>
+                <a href="http://">Portabilité</a>
+                <a href="http://">Pass</a>
+                <a href="http://">Aide</a>
+                <a href="http://">Espace client</a>
+            </div>
+            <div class="left-nav-items">
+                <i class="fas fa-shopping-cart"></i>
+                <div id="langue"><i class="fas fa-globe-europe"></i></div>
+                <img src="images/sider.png" width="30" alt="" srcset="">
+            </div>
+        </div>
+        <!-- login -->
+        <div class="win-info ">
+
+            <div class="login-content inwi-color white-text">
+                <img class="phone" src="images/phone.png" alt="" srcset="">
+                <h4>Rester connecté, téléchargez notre application</h4>
+                <div class="app-content">
+                    <div class="info-content">
+                        <a href="http://"><img src="images/google-play.png" alt="" srcset=""></a>
+                    </div>
+                    <div class="info-content">
+                        <a href="http://"><img src="images/app-store.png" alt="" srcset=""></a>
+                    </div>
+                    <div class="info-content">
+                        <a href="http://"><img src="images/app-galery.png" alt="" srcset=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="login-content  green white-text">
+                <h3>Connectez-vous avec :</h3>
+                <div>
+                    <img class="facebook-login-img" src="images/facebook.png" alt="" srcset="">
+                    <img class="facebook-login-img" src="images/facebook.png" alt="" srcset="">
+                    <img class="facebook-login-img" src="images/facebook.png" alt="" srcset="">
+                </div>
+                <h3>ou saisissez :</h3>
+                <form action="">
+                    <div class="input-item">
+                        <input class="inputt" type="text" placeholder="Votre email" name="" id="">
+                    </div>
+                    <div class="input-item">
+                        <input class="inputt" type="password" placeholder="Votre password" name="" id="">
+                    </div>
+                    <div class="input-item">
+                        <input type="checkbox" name="" id="">
+                        <label for="">Je reste connecté</label>
+                    </div>
+                    <input class="login-btn" type="submit" value="Login">
+                    <a href="">Mot de passe oublié</a>
+                    <a href="">Problème de connexion ? Accédez à l'aide</a>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="foter-item">
+                    <h3>Suivez-nous !</h3>
+                    <a href="http://"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="http://"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="http://"><i class="fab fa-twitter"></i> Twitter</a>
+                </div>
+                <div class="foter-item">
+                    <h3>Pages</h3>
+                    <a href="http://"> Conditions généra</a>
+                    <a href="http://"> Couverture réseau</a>
+                    <a href="http://"> lesPolitique des Cookies</a>
+                </div>
+                <div class="foter-item">
+                    <h3>Social Media</h3>
+                    <a href="http://"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="http://"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="http://"><i class="fab fa-twitter"></i> Twitter</a>
+                </div>
+            </div>
+            <p>Copyright 2021 © Tous droits réservés. | version: 1.0.0</p>
+        </footer>
+        <!-- js -->
+        <script src="min.js"></script>
+</body>
+<style>
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-content {
+        padding: 20px;
+        display: flex;
+        min-width: 43%;
+        margin-bottom: 10px;
+        background-color: aquamarine;
+        border-radius: 27px;
+        min-height: 415px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .login-btn {
+        width: 200px;
+        height: 30px;
+        border: none;
+        color: white;
+        border-radius: 12px;
+        background: #952d98;
+    }
+
+    .input-item {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .phone {
+        margin: auto;
+        width: 300px !important;
+    }
+
+    .login-content h3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .facebook-login-img {
+        width: 100px !important;
+    }
+
+    .inputt {
+        border-radius: 29px;
+        border: none;
+        padding: 10px;
+        width: 68%;
+        text-align: center;
+    }
+
+    form a {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+        /* text-decoration: none; */
+    }
+
+    @media screen and (max-width: 800px) {
+        .inputt {
+            border-radius: 29px;
+            border: none;
+            padding: 10px;
+            width: 90%;
+            text-align: center;
+        }
+
+        .login-content {
+            min-width: 73%;
+        }
+    }
+</style>
+
+</html>
