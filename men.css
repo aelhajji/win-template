@@ -19,6 +19,7 @@ body{
 }
 .logo{
     color: #00b956;
+    text-decoration: none;
     font-weight: bold;
     display: flex;
     align-items: center;
