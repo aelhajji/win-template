@@ -30,10 +30,10 @@ body{
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     width: 90%;
-    min-height: 60vh;    
+    min-height: 36vh;
 }
 .service-card{
     display: flex;
@@ -95,7 +95,7 @@ body{
     align-items: center;
     justify-content: space-around;
     width: 90%;
-    min-height: 56vh;
+    min-height: 27vh;    min-height: 27vh;    min-height: 27vh;
     background-color: #00b956;
     border-radius: 27px;
 }
