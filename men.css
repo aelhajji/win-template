@@ -18,11 +18,13 @@ body{
     justify-content: space-around !important;
 }
 .logo{
-    color: #00b956;
-    text-decoration: none;
     font-weight: bold;
     display: flex;
     align-items: center;
+}
+.logo a{
+    color: #00b956;
+    text-decoration: none;
 }
 .services {
     margin-top: 20px;
