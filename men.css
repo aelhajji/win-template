@@ -22,6 +22,9 @@ body{
     display: flex;
     align-items: center;
 }
+.activenave{
+    color: #00b956 !important;
+}
 .logo a{
     color: #00b956;
     text-decoration: none;
